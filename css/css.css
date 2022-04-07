@@ -20,6 +20,9 @@ main{
 main > *{
     margin: 5px 0;
 }
+main{
+    height: 85vh;
+}
 main h2{
     font-weight: 300;
     font-size: 2rem;
@@ -29,7 +32,7 @@ main h3{
     font-size: 1.5rem;
 }
 main img{
-    width: 75%;
+    width: 52%;
     margin: 5px auto;
 }
 main p{
@@ -92,4 +95,9 @@ footer .footer-right .footer-credits-contact{
 }
 footer .footer-credits-contact input{
     width: 18px;
+}
+@media (max-width: 320px){
+    main img{
+        width: 70%;
+    }
 }

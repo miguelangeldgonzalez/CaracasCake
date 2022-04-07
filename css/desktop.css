@@ -9,7 +9,7 @@ main h2{
     font-size: 3rem;
 }
 main img{
-    width: 25vw;
+    width: 25%;
 }
 
 .desktop-text{
@@ -22,4 +22,9 @@ footer .footer-credits-contact{
 }
 footer .footer-right .footer-credits-contact{
     flex-direction: row-reverse;
+}
+@media(max-width: 769px){
+    main img{
+        width: 35%;
+    }
 }
