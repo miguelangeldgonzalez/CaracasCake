@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+p, h2, h3{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.desktop-text{
+    display: none;
+}
+
+main{
+    width: 100%;
+    text-align: center;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+}
+main > *{
+    margin: 5px 0;
+}
+main h2{
+    font-weight: 300;
+    font-size: 2rem;
+}
+main h3{
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+main img{
+    width: 75%;
+    margin: 5px auto;
+}
+main p{
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+main .main-buttons{
+    margin: 10px 0;
+}
+main .main-buttons input{
+    margin: 0 10px;
+    width: 52px;
+    height: 52px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    border-radius: 38%;
+    border: 1px solid transparent;
+    
+    background-color: #5B3238D9;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px;
+    cursor: pointer;
+}
+main .main-buttons a{
+    margin: 20px;
+    color: transparent;
+}
+
+footer{
+    width: 100%;
+    height: 15vh;
+    background-color: #383838;
+    display: flex;
+    padding-top: 24px;
+}
+footer div{
+    width: 50%;
+}
+footer p{
+    font-weight: 100;
+    font-size: 0.8rem;
+    margin: 4px;
+}
+footer .footer-right{
+    text-align: right;
+    margin-right: 6px;
+}
+footer .footer-left{
+    margin-left: 6px;
+}
+footer .footer-credits-contact{
+    width: 100%;
+}
+footer .footer-credits-title{
+    font-size: 1rem;
+}
+footer .footer-right .footer-credits-contact{
+    text-align: right;
+}
+footer .footer-credits-contact input{
+    width: 18px;
+}

@@ -1,0 +1,25 @@
+.mobile-text{
+    display: none;
+}
+.desktop-text{
+    display: block;
+}
+
+main h2{
+    font-size: 3rem;
+}
+main img{
+    width: 25vw;
+}
+
+.desktop-text{
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+footer .footer-credits-contact{
+    display: flex;
+}
+footer .footer-right .footer-credits-contact{
+    flex-direction: row-reverse;
+}
