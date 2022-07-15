@@ -1,0 +1,26 @@
+header {
+    width: 100%;
+    background-color: var(--box);
+    display: flex;
+    justify-content: space-between;
+}
+.header__main-icon img {
+    margin:  10px 20px;
+    height: 80px;
+}
+.header__nav {
+    width: 45%;
+}
+.header__nav ul {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+.header__nav li {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.header__nav li.active {
+    background-color: var(--highlight);
+}

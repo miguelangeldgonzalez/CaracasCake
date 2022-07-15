@@ -1,0 +1,26 @@
+.product-card__container {
+    background-color: #fff;
+    color: var(--text-gray);
+    display: grid;
+    height: 300px;
+    width: auto;
+    grid-template-rows: 70% 30%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.product-card__container img {
+    grid-row: 1/1;
+    width: 100%;
+    margin: 0 auto;
+}
+.product-card__content {
+    background-color: #fff;
+    grid-row: 2/3;
+}
+.product-card__content {
+    text-align: left;
+}
+.product-card__content > *{
+    padding: 10px 20px;
+}

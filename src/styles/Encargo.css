@@ -1,0 +1,64 @@
+.order__container {
+    background-color: var(--box);
+    display: flex;
+    justify-content: center;
+}
+.order__container > div {
+    width: 45%;
+    padding: 30px;
+    display: flex;
+    flex-flow: column;
+}
+.order__container div input, .order__container div textarea {
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.order__left input:focus-visible, .order__left textarea:focus-visible {
+    outline: 3px solid #48262A;
+}
+.order__right input:focus-visible, .order__right textarea:focus-visible {
+    outline: 3px solid #E5D0BD;
+}
+.order__container div label {
+    margin: 20px 20px 0;
+}
+div.order__left {
+    background-color: #E5D0BD;
+}
+.order__left textarea {
+    height: 100px;
+}
+.order__left input {
+    width: 150px;
+}
+.order__left h1 {
+    color: #48262A;
+}
+
+div.order__right {
+    background-color: #48262A;
+    padding-top: 80px;
+}
+.order__right label, .order__right span{
+    color: var(--text);
+}
+.order__right__number {
+    margin-left: 20px;
+}
+
+.order__container .button {
+    cursor: pointer;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #E5D0BD;
+    color: #48262A;
+    border: none;
+    width: 200px;
+    font-size: 1rem;
+}
+.order__container .button:active {
+    outline: 3px solid var(--box);
+}

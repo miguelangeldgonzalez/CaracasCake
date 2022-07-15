@@ -1,0 +1,67 @@
+:root {
+    --box: #1C090B;
+    --highlight: #48262A91;
+    --text: #fff;
+    --gray-text: #202020;
+
+}
+
+@font-face {
+    font-family: 'Chivo';
+    src: url('../assets/fonts/Chivo-Regular.ttf');
+    font-weight: 400;  
+}
+html {
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: 'Chivo';
+}
+p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+a{
+    color: var(--text);
+    text-decoration: none;
+}
+h2 {
+    color: var(--text);
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+h1 {
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+ul {
+    list-style: none;
+    font-size: 1.5rem;
+}
+button {
+    background: var(--box);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.3rem;
+}
+input::-webkit-inner-spin-button, 
+input::-webkit-outer-spin-button { 
+  -webkit-appearance: none;  
+}
+textarea {
+    resize: none;
+}
+
+.social-media___button {
+    background-color: #5B3238;
+    border-radius: 15px;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+}

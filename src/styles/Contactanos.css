@@ -1,0 +1,52 @@
+.contact__container {
+    background-color: #210E10;
+    display: flex;
+    justify-content: center;
+}
+.contact__container > div {
+    width: 45%;
+}
+.contact__left > img {
+    width: 80%;
+    margin: 20px auto;
+}
+.contact__left {
+    background-color: #48262A;
+    display: flex;
+    flex-flow: column;
+}
+.contact__right {
+    background-color: #D8BEBD;
+}
+.contact__information  > div{
+    display: flex;
+    align-items: center;
+    margin: 20px 10px;
+    color: var(--text);
+}
+.contact__information div span {
+    margin-left: 10px;
+}
+
+.contact__right {
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+    flex-flow: column;
+    align-content: space-around;
+}
+.contact__right h1, .contact__right h2{
+    color: #371C1F;
+}
+.contact__right h2 {
+    font-size: 1.7rem;
+    margin: 10px 0;
+}
+.contact__social-media {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact__right .social-media___button img {
+    width: 50px;
+}
