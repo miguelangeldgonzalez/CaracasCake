@@ -1,7 +1,8 @@
-import React from 'rect';
+import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Layout from '../containers/Layout.jsx';
+import Encargo from '../pages/Encargo.jsx';
 import Home from '../pages/Home.jsx';
 
 const App = () => {
@@ -9,7 +10,8 @@ const App = () => {
         <BrowserRouter>
             <Layout>
                 <Routes>
-                    <Route exat path='/' element={<Home />}/>
+                    <Route exact path='/' element={<Home />}/>
+                    <Route exact path='/encargo' element={<Encargo />} />
                 </Routes>
             </Layout>
         </BrowserRouter>
