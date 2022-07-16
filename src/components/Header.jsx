@@ -24,7 +24,7 @@ const Header = () => {
                         <Link to='/contactanos'>Contáctanos</Link>
                     </li>
                     <li className={pathname == '/productos' ? 'active' : ''}>
-                        <Link to='/productos'>Productos</Link>
+                        <Link to='/'>Productos</Link>
                     </li>
                 </ul>
             </nav>

@@ -19,11 +19,11 @@ const Contact = () => {
                 <div className='contact__information'>
                     <div>
                         <img src={CallIcon}/>
-                        <span><a href='tel:+584242093842'>+58 424-2093842</a></span>
+                        <span><a href='tel:+584242093842' target='_blank'>+58 424-2093842</a></span>
                     </div>
                     <div>
                         <img src={EmailIcon}/>
-                        <span><a href='mailto:ventas@caracascake.com'>ventas@caracascake.com</a></span>
+                        <span><a href='mailto:ventas@caracascake.com' target='_blank'>ventas@caracascake.com</a></span>
                     </div>
                     <div>
                         <img src={LocationIcon}/>

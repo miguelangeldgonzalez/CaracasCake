@@ -42,3 +42,29 @@ footer hr {
 .footer__lower .right {
     text-align: right;
 }
+
+@media (max-width: 650px) {
+    .footer__upper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+    .footer__upper nav {
+        margin: 0 auto;
+    }
+    .footer__upper__social-media {
+        grid-column: 1/1;
+        grid-row: 2/3;
+        width: 100%;
+        display: inline-flex;
+    }
+    .footer__upper__social-media a img{
+        width: 30px;
+    }
+    .footer__upper > a{
+        grid-column: 2/3;
+        width: 150px;
+        justify-self: center;
+    }
+
+}

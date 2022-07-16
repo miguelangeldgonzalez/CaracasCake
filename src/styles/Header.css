@@ -9,7 +9,7 @@ header {
     height: 80px;
 }
 .header__nav {
-    width: 45%;
+    float: left;
 }
 .header__nav ul {
     display: flex;
@@ -23,4 +23,24 @@ header {
 }
 .header__nav li.active {
     background-color: var(--highlight);
+}
+
+@media (max-width: 500px) {
+    header {
+        flex-flow: column;
+    }
+    .header__main-icon img {
+        margin: 0;
+    }
+    .header__main-icon {
+        width: 80px;
+        margin: 10px auto;
+    }
+    .header__nav {
+        margin: 15px;
+    }
+    .header__nav li.active {
+        padding: 10px;
+        border-radius: 10px;
+    }
 }

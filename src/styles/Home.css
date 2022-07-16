@@ -70,3 +70,38 @@
 .products__container > p {
     margin: 30px 100px;
 }
+
+@media (max-width: 1050px) {
+    .about__background {
+        top: -60%;
+    }
+}
+@media (max-width: 800px) {
+    .about__background {
+        top: -70%;
+    }
+}
+
+@media (max-width: 650px) {
+    .products__cards, .about__content, .banner__container {
+        flex-flow: column;
+    }
+    .banner__container {
+        background-image: url('../assets/img/caracas_cake_tortas_mobile.png');
+    }
+    .banner__text {
+        margin: 50px 0;
+    }
+    .about__background {
+        top: -60%;
+    }
+    .about__content p {
+        width: 70%;
+        margin: 20px 0;
+        text-align: justify;
+    }
+    .product-card__container {
+        width: 50%;
+        margin: 20px auto;
+    }
+}

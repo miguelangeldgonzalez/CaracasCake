@@ -50,3 +50,19 @@
 .contact__right .social-media___button img {
     width: 50px;
 }
+
+@media (max-width: 650px) {
+    .contact__container {
+        flex-flow: column;
+        align-items: center;
+    }
+    .contact__container > div {
+        width: 80%;
+    }
+    .contact__right {
+        padding: 40px;
+    }
+    .contact__right .social-media___button img {
+        width: 40px;
+    }
+}

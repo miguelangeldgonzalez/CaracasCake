@@ -62,3 +62,13 @@ div.order__right {
 .order__container .button:active {
     outline: 3px solid var(--box);
 }
+
+@media (max-width: 650px) {
+    .order__container {
+        flex-flow: column;
+        align-items: center;
+    }
+    .order__container > div {
+        width: 80%;
+    }
+}

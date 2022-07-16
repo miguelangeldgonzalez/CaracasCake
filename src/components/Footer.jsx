@@ -21,7 +21,7 @@ const Footer = () => {
                             <Link to='/contactanos'>Contáctanos</Link>
                         </li>
                         <li>
-                            <Link to='/productos'>Productos</Link>
+                            <Link to='/'>Productos</Link>
                         </li>
                     </ul>
                 </nav>
@@ -44,14 +44,14 @@ const Footer = () => {
             <div className="footer__lower">
                 <div className="right">
                     <p>Desarrollo</p>
-                    <a href='https://miguelangeldgonzalez.github.io'>
+                    <a href='https://miguelangeldgonzalez.github.io' target="_blank">
                         <p>Miguelángel Domínguez</p>
                     </a>
                 </div>
                 <div className="left">
                     <p>Diseño</p>
-                    <a href="">
-                        <p>Dani Rodriguez</p>
+                    <a href="" target="_blank">
+                        <p>Dani Rodríguez</p>
                     </a>
                 </div>
             </div>
