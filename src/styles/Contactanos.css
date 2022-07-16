@@ -65,4 +65,7 @@
     .contact__right .social-media___button img {
         width: 40px;
     }
+    .contact__right h1 {
+        font-size: 2.5rem
+    }
 }
