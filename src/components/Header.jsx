@@ -8,7 +8,6 @@ import '../styles/Header.css';
 
 const Header = () => {
     const {pathname} = useLocation();
-    console.log(pathname);
 
     return (
         <header>
