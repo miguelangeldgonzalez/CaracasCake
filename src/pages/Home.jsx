@@ -15,7 +15,7 @@ const Home = () => {
         <div className='home__container'>
             <div className='banner__container'>
                 <div className='banner__text'>
-                    <h1>Caracas Cake</h1>
+                    <h1>Caracas<br />Cake</h1>
                     <h2>Repostería artística</h2>
                 </div>
             </div>
